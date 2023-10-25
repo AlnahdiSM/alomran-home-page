@@ -24,4 +24,29 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+    background: none;
+    
 }
+/* styles/globals.css */
+
+/* Reset some defaults */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+
+:host {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+

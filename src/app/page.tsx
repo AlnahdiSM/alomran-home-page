@@ -1,10 +1,13 @@
+// ./src/app/page.tsx
+export default function HomePage() {
+    
 
-
-
-export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-
-    </main>
-  )
+    <div>
+      <h1>Contentful + Next.js Example</h1>
+      <ul>
+        
+      </ul>
+    </div>
+  );
 }

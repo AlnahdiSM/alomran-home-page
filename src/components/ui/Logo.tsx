@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import LogoIcon from "../../../public/logo.svg"
+import LogoIcon from "@/public/logo.png"
 export default function Logo() {
   return (
     <>
